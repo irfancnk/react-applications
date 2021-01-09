@@ -1,0 +1,14 @@
+.repo-selection-div {
+    height: 5%;
+    min-height: 60px;
+    border-bottom: 1px solid var(--c-secondary-border);
+
+}
+.issue-list-div {
+    height: 90%;
+}
+.issue-page-div {
+    height: 5%;
+    min-height: 60px;
+    border-top: 1px solid var(--c-secondary-border);
+}

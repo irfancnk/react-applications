@@ -1,0 +1,14 @@
+{
+    "applicationUser": {
+        "userEmail": "",
+        "isAuthenticated": false
+    },
+    "issuePage": {
+        "requestInProgress": true,
+        "owner": "facebook",
+        "repository": "react",
+        "issueList": [],
+        "issuePage": 1
+    },
+    "modals": {}
+}
