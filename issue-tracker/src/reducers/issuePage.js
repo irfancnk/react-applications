@@ -1,6 +1,10 @@
 import produce from "immer";
 import ActionEnum from '../constants/action-enum';
 
+
+/**
+ * Handles issue related data persistence operations
+ */
 export const issuePage = produce((state, action) => {
     switch (action.type) {
         case ActionEnum.ISSUE_REQUEST_STATUS_CHANGE:

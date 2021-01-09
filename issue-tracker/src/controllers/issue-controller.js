@@ -8,6 +8,14 @@ import {
     issuePageChange
 } from '../actions/actions'
 
+
+/**
+ * Returns a promise that sends GET request to api
+ * and dispatches retrieved results
+ * @param {String} owner 
+ * @param {String} repo 
+ * @param {Number} page 
+ */
 function getRepoIssues(owner, repo, page) {
         return function (dispatch) {
             return new Promise(function (resolve, reject) {

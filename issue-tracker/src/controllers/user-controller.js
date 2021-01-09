@@ -17,6 +17,13 @@ const recoverAuth = (state) => {
     return state;
 }
 
+
+/**
+ * Returns a promise that sends login request and
+ * contains related business logic
+ * @param {String} email 
+ * @param {String} password 
+ */
 const login = (email, password) => {
     return (dispatch) => {
         return new Promise(function (resolve, reject) {

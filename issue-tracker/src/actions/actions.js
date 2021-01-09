@@ -1,6 +1,11 @@
 import ActionEnum from '../constants/action-enum';
 
-export const applicationUserLogin = (value) => ({
+/**
+ * Contains store actions that are used 
+ * inside the application
+ */
+
+ export const applicationUserLogin = (value) => ({
     type: ActionEnum.APPLICATION_USER_LOGIN,
     payload: value
 });

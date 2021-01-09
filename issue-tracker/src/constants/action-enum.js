@@ -1,3 +1,8 @@
+
+/**
+ * Contains store action enumerations that are used 
+ * inside the application
+ */
 const actionEnum = Object.freeze({
     // USER OPERATIONS
     "APPLICATION_USER_LOGIN": "APPLICATION_USER_LOGIN",
