@@ -9,6 +9,10 @@
 }
 .issue-page-div {
     height: 5%;
-    min-height: 60px;
     border-top: 1px solid var(--c-secondary-border);
+}
+
+.owner-name {
+    color: var(--c-title);
+    font-weight: bold;
 }

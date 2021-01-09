@@ -69,8 +69,8 @@ class IssueList extends Component {
         return (
             this.repos.map((item, index) => {
                 return (
-                    <option 
-                        key={index} 
+                    <option
+                        key={index}
                         value={item}
                     >
                         {item}
@@ -90,7 +90,8 @@ class IssueList extends Component {
                 <div className="container-fluid h-100 m-0 p-0">
                     <div className="row m-0 p-0 h-100">
                         <div className="repo-selection-div col-12 m-0 p-0">
-                            <div className="d-flex h-100 w-100 align-items-center justify-content-center">
+                            <div className="d-flex py-2 px-3 m-0 h-100 w-100 flex-row align-items-center justify-content-start">
+                                <p className="owner-name">facebook/{' '}</p>
                                 <Form.Group>
                                     <Form.Control defaultValue={this.props.issuePage.repository} as="select" size="sm" onChange={(e) => this.fetchIssues(this.props.issuePage.owner, e.target.value, 1)}>
                                         {this.mapRepos()}
